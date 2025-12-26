@@ -14,8 +14,8 @@ An [Alfred](https://www.alfredapp.com/) workflow for [Trimmy](https://github.com
 1. **Trimmy.app** must be installed ([download](https://github.com/steipete/Trimmy/releases))
 2. **Trimmy CLI** must be installed:
    - Open Trimmy.app
-   - Click the menu bar icon
-   - Select "Install CLI Tool"
+   - Go to **Settings → General**
+   - Click **"Install CLI Tool"**
 
 ## Installation
 

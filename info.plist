@@ -121,7 +121,7 @@ if [ -x /usr/local/bin/trimmy ]; then
 elif [ -x /opt/homebrew/bin/trimmy ]; then
     TRIMMY="/opt/homebrew/bin/trimmy"
 else
-    echo "Error: Trimmy CLI not found"
+    echo "Trimmy CLI not found. Open Trimmy Settings → General → Install CLI Tool"
     exit 1
 fi
 
@@ -234,7 +234,7 @@ if [ -x /usr/local/bin/trimmy ]; then
 elif [ -x /opt/homebrew/bin/trimmy ]; then
     TRIMMY="/opt/homebrew/bin/trimmy"
 else
-    echo "Error: Trimmy CLI not found"
+    echo "Trimmy CLI not found. Open Trimmy Settings → General → Install CLI Tool"
     exit 1
 fi
 
@@ -262,7 +262,7 @@ Trim multi-line shell commands from your clipboard.
 
 REQUIREMENTS:
 - Trimmy.app must be installed
-- CLI tool must be installed (Trimmy menu → Install CLI Tool)
+- CLI tool must be installed (Trimmy Settings → General → Install CLI Tool)
 
 USAGE:
 - Type "trim" to trim clipboard at normal aggressiveness
