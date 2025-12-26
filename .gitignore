@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Alfred workflow builds
+*.alfredworkflow
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
